@@ -11,9 +11,20 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: 'var(--color-primary)',
+        secondary: 'var(--color-secondary)',
+      },
+      fontSize: {
+        base: 'var(--font-size-base)',
+        lg: 'var(--font-size-lg)',
+        xl: 'var(--font-size-xl)',
+      },
+      screens: {
+        'xs': '400px',
       },
     },
   },
   plugins: [],
+  darkMode: 'class',
 };
 export default config;
